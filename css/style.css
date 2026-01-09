@@ -485,6 +485,51 @@ img {
     box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
 }
 
+/* SNS Buttons */
+.sns-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.sns-buttons .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    font-size: 0.95rem;
+}
+
+.sns-buttons .cta-btn svg {
+    flex-shrink: 0;
+}
+
+.cta-btn-phone {
+    background: var(--color-primary);
+}
+
+.cta-btn-line {
+    background: #06C755;
+    box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);
+}
+
+.cta-btn-line:hover {
+    background: #05a847;
+    box-shadow: 0 6px 20px rgba(6, 199, 85, 0.4);
+}
+
+.cta-btn-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    box-shadow: 0 4px 15px rgba(225, 48, 108, 0.3);
+}
+
+.cta-btn-instagram:hover {
+    background: linear-gradient(45deg, #e08a2e 0%, #d55d36 25%, #c7213b 50%, #b91f5b 75%, #a8147a 100%);
+    box-shadow: 0 6px 20px rgba(225, 48, 108, 0.4);
+}
+
 /* =============================================
    Footer
    ============================================= */
